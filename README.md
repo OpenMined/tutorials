@@ -34,10 +34,7 @@ Although this step is optional, it is highly recommended. We will cover a few of
 
 The first thing to do is to navigate to the directory where you would like to keep the project and then create the virtual environment there:
 
-```bash
-mkdir OpenMined;
-cd OpenMined
-```
+`mkdir OpenMined && cd $_`
 
 #### Python3 VENV
 Since venv isn't standard until Python 3.6 we should make sure that we have the package installed if using a version of Python lower than that. I would recommend using your system's package manager to keep things tidy:
