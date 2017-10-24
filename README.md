@@ -28,9 +28,9 @@ This repository provides tutorial code to explore and learn various projects in 
 ### Virtual Environment Setup
 Although this step is optional, it is highly recommended. We will cover a few of the different ways in which they can be setup. Choose the one that is the most suitable for your environment.
 
-- [Python3 VENV](#venv)
-- [Anaconda Create](#conda-create)
-- [Virtualenv Wrapper](#virtualenv)
+- [Python3 VENV](#python3-venv)
+- [Anaconda Create](#anaconda-create)
+- [Virtualenv Wrapper](#virtualenv-wrapper)
 
 The first thing to do is to navigate to the directory where you would like to keep the project and then create the virtual environment there:
 
