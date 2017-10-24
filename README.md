@@ -34,18 +34,26 @@ Although this step is optional, it is highly recommended. We will cover a few of
 
 The first thing to do is to navigate to the directory where you would like to keep the project and then create the virtual environment there:
 
-`mkdir OpenMined && cd $_`
+```bash
+# Linux/macOS
+mkdir OpenMined && cd $_
+```
+```shell
+#Windows
+mkdir OpenMined
+cd OpenMined
+```
 
 #### Python3 VENV
-Since venv isn't standard until Python 3.6 we should make sure that we have the package installed if using a version of Python lower than that. I would recommend using your system's package manager to keep things tidy:
+Since *venv* isn't standard until Python 3.6 we should make sure that we have the package installed if using a version of Python lower than that. I would recommend using your system's package manager to keep things tidy:
 
 `sudo apt-get install python3-venv`
 
-Once you've confirmed that you have *venv*, to create your virtual environment the command is as follows:
+Once you have confirmed that you have *venv* installed, you can proceed with creating the virtual environment with the following command:
 
 `python3 -m venv OpenMined`
 
-Standard convention is to create a virtual environment with the name of *.venv*, but I like to see the name of the environment so that I am sure that I have the correct one active.
+Standard convention is to create a virtual environment with the name of *.venv*, but I like to see the name of the environment in which I'm working on so that I am sure that I have the correct one active.
 
 To **activate** the environment:
 
@@ -58,7 +66,7 @@ To **deactivate** the environment:
 `deactivate`
 
 #### Anaconda Create
-The easiest way would be to clone your root environment. This way all of the packages that come with Anaconda will be available to you without having to install them one at a time:
+The easiest way would be to clone your root environment. This way all of the packages that come with Anaconda will be available to you without you having to install them:
 
 `conda create -n OpenMined --clone root`
 
@@ -67,7 +75,7 @@ If you would like more control over the packages in your virtual environment, I 
 To activate/deactivate the environment:
 
 ```bash
-# Linux
+# Linux/macOS
 source activate OpenMined
 source deactivate
 ```
@@ -77,7 +85,7 @@ activate OpenMined
 deactivate
 ```
 #### Virtualenv Wrapper
-Complete instructions on how to install [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/) and [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/) is beyond the scope of these instructions, but will make things easier with managing your environments.
+Complete instructions on how to install [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/) and [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/) are beyond the scope of these instructions, but it will make things easier with managing your environments if you take the time to install them and learn to work with them.
 
 If you have *virtualenv* and *virtualenvwrapper* installed, then you might want to use either one of these steps:
 
