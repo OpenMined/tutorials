@@ -21,6 +21,9 @@ This repository provides tutorial code to explore and learn various projects in 
 
 - Make sure Python 3.5+ is installed on your machine by checking `python3 --version`
 - Set up a virtual environment for the Python libraries (optional, recommended)
+- Install pysyft by following the instructions listed over [here](https://github.com/OpenMined/PySyft/blob/master/README.md)
+- Install pysonar by following the instructions listed over [here](https://github.com/OpenMined/PySonar/blob/master/README.md)
+- Install capsule by following the instructions listed over [here](https://github.com/OpenMined/Capsule/blob/master/README.md)
 
 ### Virtual Environment Setup
 Although this step is optional, it is highly recommended. We will cover a few of the different ways in which they can be setup. Choose the one that is the most suitable for your environment.
