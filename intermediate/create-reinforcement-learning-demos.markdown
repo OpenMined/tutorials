@@ -3,9 +3,9 @@
 
 ### What's Reinforcement Learning?
 
-You have probably heard about AI breackthroughs where an AI agent is able to play [Attari games](https://deepmind.com/research/publications/playing-atari-deep-reinforcement-learning/) or [beat world champions at Go](https://deepmind.com/research/alphago/). These accomplishments have all been made possible because of one specific machine learning area: Reinforcement Learning. 
+You have probably heard about AI breackthroughs where an AI agent is able to play [Atari games](https://deepmind.com/research/publications/playing-atari-deep-reinforcement-learning/) or [beat world champions at Go](https://deepmind.com/research/alphago/). These accomplishments have all been made possible because of one specific machine learning area: Reinforcement Learning. 
 
-Reinforcement Learning (RL) consists of learning best actions based on reward or punishment. The RL agent learns by interacting with an environment (e.g. an Attari game or Go board) through many trials and errors. Its actions take place in a state, which describes the current situation. For example, on a Go board, the state is the positions of all the pieces on the board. At every state, the RL agent receives a reward that can be positive or negative based on the action taken. Over time, the RL agent will learn a sequence of actions that leads to a long-term reward.  
+Reinforcement Learning (RL) consists of learning best actions based on reward or punishment. The RL agent learns by interacting with an environment (e.g. an Atari game or Go board) through many trials and errors. Its actions take place in a state, which describes the current situation. For example, on a Go board, the state is the positions of all the pieces on the board. At every state, the RL agent receives a reward that can be positive or negative based on the action taken. Over time, the RL agent will learn a sequence of actions that leads to a long-term reward.  
 
 To continue to learn more about Reinforcement Learning, you can read this excellent [blog post](http://karpathy.github.io/2016/05/31/rl/) written by Andrej Karpathy.
 
@@ -20,7 +20,7 @@ In order to be as portable as possible, OpenMined has built its backend on the g
 
 So because OpenMined uses Unity as a backend, a game developer, for example, could train a RL agent for her game directly on her console instead of having to use a cloud service to access GPUs. 
 
-Another benefit of OpenMined is that you could train your RL agent concurrently on several devices (computer, gaming console, etc) by using [OpenMined Grid](https://github.com/OpenMined/Grid). This approach could drastically speed up the agent's training.
+Another benefit of OpenMined is that you could train your RL agent concurrently on several devices (computer, gaming console, etc.) by using [OpenMined Grid](https://github.com/OpenMined/Grid). This approach could drastically speed up the agent's training.
 
 ### Different ways to contribute
 
