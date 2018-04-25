@@ -13,9 +13,9 @@ In this document, we're going to condense how you should setup your machine in p
 # Step 1: Install Unity
 
 Unity is a cross-platform game engine to develop applications (usually games) for computers, consoles, and mobile devices.
-Since we want utilize the GPU power from video games (such as PS4 and Xbox One) to training the Deep Learning models, Unity helps us to develop OpenMined application that can run like a game on those consoles.
+Since we want to utilize the GPU power from video games (such as PS4 and Xbox One) to train the Deep Learning models, Unity helps us to develop OpenMined application that can run like a game on those consoles.
 
-So, to get Unity just proceed to the [Unity3D Download Page](https://store.unity.com/download).
+So, to get Unity, just proceed to the [Unity3D Download Page](https://store.unity.com/download).
 It's the longest part of the process, but you can continue with the other steps in this tutorial while you wait for the download.
 
 A few quick tips:
@@ -53,11 +53,11 @@ But if you didnt, you'll need to use [these instructions](http://jupyter.readthe
 
 # Step 3: Fork, Clone & Build Relevant Repositories
 
-To download the project files to your computer you could directly clone our main repository, but by doing that you aren't be able to send Pull Request. So in order to do that, you need to make a fork.
+To download the project files to your computer you could directly clone our main repository, but by doing that you won't be able to send Pull Requests. So in order to do that, you need to make a fork.
 
 #### Part 1: Your OpenMined directory
 
-For organizational reasons, is important to have a dedicaded directory on you computer to hold all your OpenMined related projects.
+For organizational reasons, it is important to have a dedicated directory on you computer to hold all your OpenMined related projects.
 
 1. To do that, just create a OpenMined folder: `$ mkdir OpenMined`
 
@@ -65,7 +65,7 @@ For organizational reasons, is important to have a dedicaded directory on you co
 
 3. And do one more check if that Python 3.6 is activated: `$ python --version`
    
-   - If don't activate the 3.6 environment: `$ source activate py36`
+   - If Python 3.6 is not activated, activate the 3.6 environment: `$ source activate py36`
 
 #### Part 2: Fork PySyft an OpenMined Repositories
 
@@ -118,11 +118,11 @@ It should automatically open your browser to the main Jupyter Notebook folder.
 
 # Step 5: Start OpenMined Unity Application
 
-Last step! We're so close. Now we gonna open the OpenMined Unity Project in Unity3D.
+Last step! We're so close. Now we are going to open the OpenMined Unity Project in Unity3D.
 
 #### Part 1: Start Unity Application
 
-Find where Unity installed, start the application and login with your account.
+Find where Unity is installed, start the application and login with your account.
 
 #### Part 2: Select OpenMined/UnityProject
 
@@ -132,7 +132,7 @@ Click in the "Open" button and select the folder `UnityProject` within the OpenM
 
 #### Part 3: Double-click Assets/OpenMinedMain
 
-To design games, Unity uses a concept called 'scene', witch is a collection of code objects that interacts each other. In OpenMined case, we're build an Deep Learning library, so our scene it's a little bit different.
+To design games, Unity uses a concept called 'scene', which is a collection of code objects that interacts each other. In OpenMined's case, we're build a Deep Learning library, so our scene is a little bit different.
 
 To open it, go to the project pane, and in the "Assets" folder, double click on `OpenMinedMain` Unity Scene (little file with the Unity logo next to it).
 
