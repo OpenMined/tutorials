@@ -1,4 +1,4 @@
-# Tutorials
+# DEPRECATED TUTORIALS - DO NOT USE
 [![Chat on Slack](https://img.shields.io/badge/chat-on%20slack-7A5979.svg)](https://openmined.slack.com/messages/beginner)
 
 This repository includes step-by-step tutorials for using and adding to functionality within the OpenMined ecosystem. **Before** you begin, you should start by completing our [installation guides](https://github.com/OpenMined/tutorials/tree/master/installation) which will get you setup and ready to complete the tutorials. If you get stuck, the best place to ask questions is in the *#beginner* [Slack](https://openmined.slack.com/) channel.
